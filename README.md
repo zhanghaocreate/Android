@@ -6,25 +6,25 @@
 后面我通过查询资料和教程学习后，添加了时间戳和查询功能
 
 
-主要的类:
-NotesList类 应用程序的入口，笔记本的首页面会显示笔记的列表
-NoteEditor类 编辑笔记内容的Activity
-TitleEditor类 编辑笔记标题的Activity
-NoteSearch类 编辑查询笔记内容的Activity
+主要的类:</br>
+NotesList类 应用程序的入口，笔记本的首页面会显示笔记的列表</br>
+NoteEditor类 编辑笔记内容的Activity</br>
+TitleEditor类 编辑笔记标题的Activity</br>
+NoteSearch类 编辑查询笔记内容的Activity</br>
 NotePadProvider 这是笔记本应用的ContentProvider，也是整个应用的关键所在
 
-主要的布局文件：
-note_editor.xml 笔记主页面布局
-note_search.xml 笔记内容查询布局
-notelist_item.xml 笔记主页面每个列表项布局
-title_editor.xml 修改笔记主题布局
+主要的布局文件：</br>
+note_editor.xml 笔记主页面布局</br>
+note_search.xml 笔记内容查询布局</br>
+notelist_item.xml 笔记主页面每个列表项布局</br>
+title_editor.xml 修改笔记主题布局</br>
 
-主要的菜单文件：
-editor_options_menu.xml 编辑笔记内容的菜单布局
-list_context_menu.xml 笔记内容编辑上下文菜单布局
-list_options_menu.xml 笔记主页面可选菜单布局
+主要的菜单文件：</br>
+editor_options_menu.xml 编辑笔记内容的菜单布局</br>
+list_context_menu.xml 笔记内容编辑上下文菜单布局</br>
+list_options_menu.xml 笔记主页面可选菜单布局</br>
 
-数据装配：
+数据装配：</br>
 NoteList使用SimpleCursorAdapter来装配数据，首先查询数据库的内容
 
     Cursor cursor = managedQuery(
