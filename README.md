@@ -217,6 +217,8 @@ NoteList使用SimpleCursorAdapter来装配数据，首先查询数据库的内�
 5.最后要在清单文件AndroidManifest.xml里面注册NoteSearch,否则无法实现界面的跳转
 
      <activity android:name=".NoteSearch" android:label="@string/search_note" />
+     
+# 运行效果图
 
 原页面
 
